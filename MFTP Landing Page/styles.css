@@ -1,0 +1,118 @@
+body {
+  background-color: burlywood;
+  font-family: "Numans", sans-serif;
+  color: #000000;
+}
+#page-wrapper {
+  position: relative;
+}
+.logo > img {
+  width: 100%;
+  height: 100%;
+  max-width: 18rem;
+}
+header {
+  position: absolute;
+  display: flex;
+  min-height: 4rem;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-around;
+}
+a {
+  color: #000000;
+  text-decoration: none;
+}
+a:hover {
+  color: burlywood;
+}
+#subscribe {
+  color: burlywood;
+}
+#subscribe:hover {
+  color: #000000;
+}
+nav {
+  margin-top: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: right;
+  padding: 0 50px;
+  background-color: #b53232;
+}
+li {
+  display: inline;
+  padding: 3rem;
+}
+.title {
+  font-family: "Numans", sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2rem;
+  padding-top: 1rem;
+  display: absolute;
+}
+.subtitle {
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  text-transform: lowercase;
+  font-size: 1rem;
+  display: absolute;
+}
+form {
+  padding: 0.5rem;
+}
+fieldset {
+  margin-top: 3rem;
+  padding: 1rem;
+  max-width: 14rem;
+  border: 3px solid #b53232;
+}
+#pricing {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.give-get-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: calc(100% / 3);
+  margin: 10px;
+  padding: 1rem;
+  border: 3px solid #b53232;
+  border-radius: 0.5rem;
+}
+.give-get-container > .level {
+  background-color: #b53232;
+  padding: 1rem;
+  width: 100%;
+  text-transform: uppercase;
+}
+.give-get-container > h2 {
+  margin-top: 15px;
+}
+.give-get-container > button {
+  margin: 15px 0;
+  background-color: #b53232;
+  border: 1px solid #000000;
+  border-radius: 0.5rem;
+  scale: 1.5;
+}
+button:hover {
+  color: burlywood;
+}
+@media (max-width: 800px) {
+  #pricing {
+    flex-direction: column;
+  }
+  .give-get-container {
+    max-width: 300px;
+    width: 100%;
+  }
+}
