@@ -1,0 +1,10 @@
+:root {
+  --primary-color: #000000;
+  --secondary-color: #fe95b4;
+  --tertiary-color: #00cdcd;
+}
+body {
+  background-color: var(--primary-color);
+  font-family: "Numans", sans-serif;
+  color: var(--secondary-color);
+}
