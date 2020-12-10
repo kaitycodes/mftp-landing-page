@@ -15,14 +15,3 @@ fieldset {
   scale: 1.25;
   margin: 1rem;
 }
-#submit {
-  margin: 15px 0;
-  color: var(--tertiary-color);
-  background-color: var(--primary-color);
-  border: 1px solid var(--secondary-color);
-  border-radius: 0.5rem;
-  scale: 1.5;
-}
-#submit:hover {
-  color: var(--secondary-color);
-}

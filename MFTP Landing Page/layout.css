@@ -8,3 +8,12 @@ body {
   font-family: "Numans", sans-serif;
   color: var(--secondary-color);
 }
+@media (max-width: 800px) {
+  #pricing {
+    flex-direction: column;
+  }
+  .give-get-container {
+    max-width: 300px;
+    width: 100%;
+  }
+}
