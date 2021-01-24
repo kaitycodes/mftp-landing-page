@@ -1,65 +1,99 @@
 <!DOCTYPE html>
-
-<head>
+<html>
+  <head>
     <title>Music for the People!</title>
-    <link href="./styles.css" rel="stylesheet" type="text/css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Numans&family=Raleway&display=swap" rel="stylesheet">
-</head>
+    <link href="./styles.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Numans&family=Raleway&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
+  <body>
     <header id="header">
-        <img id=header-img" src="images/logo.jpg" alt="Music for the People logo" />
-        <nav id="nav-bar">
-            <ul>
-                <li><a class="nav-link" href="#home">home</a></li>
-                <li><a class="nav-link" href="#how-it-works">how it works</a></li>
-                <li><a class="nav-link" href="#contact">contact us</a></li>
-                <li><a class="nav-link" href="#login">my music profile</a></li>
-                <li><a id="subscribe" class="nav-link nav-cta" href="#my-music-profile">subscribe</a></li>
-            </ul>
-        </nav>
+      <img id=header-img" src="images/logo.jpg" alt="Music for the People logo"
+      />
+      <nav id="nav-bar">
+        <ul>
+          <li><a class="nav-link" href="#home">home</a></li>
+          <li><a class="nav-link" href="#how-it-works">how it works</a></li>
+          <li><a class="nav-link" href="#contact">contact us</a></li>
+          <li><a class="nav-link" href="#login">my music profile</a></li>
+          <li>
+            <a id="subscribe" class="nav-link nav-cta" href="#my-music-profile"
+              >subscribe</a
+            >
+          </li>
+        </ul>
+      </nav>
     </header>
     <fieldset>
-        <legend>already a subscriber?</legend>
-        <form id="form" action="https://www.freecodecamp.com/email-submit" method="POST">
-            <label for="email">email:</label>
-            <br />
-            <input id="email" type="email" name="email" required="required" placeholder="ilovemusic@gmail.com" />
-            <br />
-            <label for="password">password:</label>
-            <input type="password" name="password" required="required" />
-            <br />
-            <input id="submit" type="submit" value="login" class="button" />
-        </form>
+      <legend>already a subscriber?</legend>
+      <form
+        id="form"
+        action="https://www.freecodecamp.com/email-submit"
+        method="POST"
+      >
+        <label for="email">email:</label>
+        <br />
+        <input
+          id="email"
+          type="email"
+          name="email"
+          required="required"
+          placeholder="ilovemusic@gmail.com"
+        />
+        <br />
+        <label for="password">password:</label>
+        <input type="password" name="password" required="required" />
+        <br />
+        <input id="submit" type="submit" value="login" class="button" />
+      </form>
     </fieldset>
     <section id="pricing">
-        <div class="give-get-container" id="give1">
-            <div class="level">give 1</div>
-            <h2>free</h2>
-            <p>donate music (in any physical format) to our subscriber database so that others have access to more
-                music</p>
-            <p>after 3 donations you can add an additional music selection to an existing subscription delivery</p>
-            <br />
-            <button class="button">select</button>
-        </div>
-        <div class="give-get-container">
-            <div class="level">give 2, get 3</div>
-            <h2>$10/month</h2>
-            <p>ship us 2 music selections in any physical format of your choosing</p>
-            <p>we will then do the work of finding and shipping you 3 high quality music selections listed on your
-                trading profile wishlist in your desired physical format</p>
-            <br />
-            <button class="button">select</button>
-        </div>
-        <div class="give-get-container">
-            <div class="level">give 3, get 4</div>
-            <h2>$15/month</h2>
-            <p>ship us 3 music selections in any physical format of your choosing</p>
-            <p>we will then do the work of finding and shipping you 4 high quality music selections listed on your
-                trading profile wishlist in your desired physical format</p>
-            <br />
-            <button class="button">select</button>
-        </div>
+      <div class="give-get-container" id="give1">
+        <div class="level">give 1</div>
+        <h2>free</h2>
+        <p>
+          donate music (in any physical format) to our subscriber database so
+          that others have access to more music
+        </p>
+        <p>
+          after 3 donations you can add an additional music selection to an
+          existing subscription delivery
+        </p>
+        <br />
+        <button class="button">select</button>
+      </div>
+      <div class="give-get-container">
+        <div class="level">give 2, get 3</div>
+        <h2>$10/month</h2>
+        <p>
+          ship us 2 music selections in any physical format of your choosing
+        </p>
+        <p>
+          we will then do the work of finding and shipping you 3 high quality
+          music selections listed on your trading profile wishlist in your
+          desired physical format
+        </p>
+        <br />
+        <button class="button">select</button>
+      </div>
+      <div class="give-get-container">
+        <div class="level">give 3, get 4</div>
+        <h2>$15/month</h2>
+        <p>
+          ship us 3 music selections in any physical format of your choosing
+        </p>
+        <p>
+          we will then do the work of finding and shipping you 4 high quality
+          music selections listed on your trading profile wishlist in your
+          desired physical format
+        </p>
+        <br />
+        <button class="button">select</button>
+      </div>
     </section>
-</body>
+  </body>
+</html>
